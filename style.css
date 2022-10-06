@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    margin-top: 50px;
+}
+@media (min-width: 770px) and (max-width: 1440px)  {
+
+    body{
+        height: 100vh;
+    }
+    
+    header{
+        height: 10%;
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        display:flex;
+        flex-wrap: wrap;
+        height: 90%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .chicken{
+        background-color: gray;
+        height: 30%;
+        width: 42.5%;
+        border: solid black 5px;
+    }
+    #chicken{
+        display: flex;
+    }
+    .chickentext{
+        background-color: darksalmon;
+        height: 10%;
+        width: 20%;
+        border: black solid 5px;
+        
+    }
+    .beef{
+        background-color: gray;
+        height: 30%;
+        width: 42.5%;
+    }
+    .sushi{
+        background-color: gray;
+        height: 25%;
+        width: 85%;
+        
+    }
+}
